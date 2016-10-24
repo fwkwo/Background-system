@@ -1,0 +1,62 @@
+/*backgroud set*/
+body.login {
+    color: #2c3e50;
+    background-color: #bdc3c7;
+    font-family: "微软雅黑";
+}
+/*box*/
+.wrapper {
+    padding: 20px;
+    background-color: #ecf0f1;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border-radius: 15px;
+    -webkit-box-shadow: 0 0 0 2px rgba(0,0,0,0.04);
+    box-shadow: 0 0 0 2px rgba(0,0,0,0.04);
+    border: 1px solid rgba(0,0,0,0.3);
+    margin: 10% auto;
+    width: 300px;
+}
+/*logo*/
+.wrapper .logo{
+	margin-top: -15px;
+}
+.wrapper .logo h1{
+	font-size: 28px;
+	padding-bottom: 5px;
+	margin-bottom: 20px;
+}
+.wrapper .logo h1 .logo-icon {
+    width: 75px;
+    height: 75px;
+    margin: auto auto 5px;
+    padding: 15px;
+    border-radius: 40px;
+    background: #2c3e50;
+}
+/*字体图标*/
+.wrapper .logo h1 .logo-icon i {
+    color: #1abc9c;
+    font-size: 140%;
+}
+/*forget password*/
+.forget{
+	 color: #1abc9c;
+}
+/*button*/
+button.btn.btn-default {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    background: #1abc9c;
+
+    color: #fff;
+    border-color: #cccccc;
+}
+  button.btn.btn-default:hover{
+  	 background: #11AF90;
+  	 border-color: #cccccc;
+}
+  
